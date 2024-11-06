@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos sobre Futebol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .video {
+            margin-bottom: 20px;
+        }
+        .video a {
+            text-decoration: none;
+            color: #1a0dab;
+        }
+        .video iframe {
+            width: 100%;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Vídeos sobre Futebol</h1>
+    </header>
+    <div class="container">
+        <h2>Vídeos do Corinthians</h2>
+        <div class="video">
+            <h3><a href="https://www.youtube.com/results?search_query=corinthians" target="_blank">Resultados de Pesquisa sobre Corinthians no YouTube</a></h3>
+            <p>Confira os vídeos mais recentes sobre o Corinthians clicando no link acima.</p>
+        </div>
+        <div class="video">
+            <h3>Vídeo Específico</h3>
+            <iframe src="https://www.youtube.com/embed/bvYp7ORMVrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><a href="https://www.youtube.com/watch?v=bvYp7ORMVrs" target="_blank">Assista ao vídeo aqui</a></p>
+        </div>
+    </div>
+</body>
+</html>
